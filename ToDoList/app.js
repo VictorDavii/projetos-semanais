@@ -1,6 +1,6 @@
 'use strict';
 
-let banco = [];
+let banco = []
 
 const getBanco = () => JSON.parse(localStorage.getItem ('todoList')) ?? [];
 const setBanco = (banco) => localStorage.setItem ('todoList', JSON.stringify(banco));
@@ -28,7 +28,7 @@ const atualizarTela = () => {
     const banco = getBanco(); 
     banco.forEach ( (item, indice) => criarItem (item.tarefa, item.status, indice));
 }
-
+ 
 const inserirItem = (evento) => {
     const tecla = evento.key;
     const texto = evento.target.value;

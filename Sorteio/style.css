@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #F4CE01;
+    --secondary-color: #0F0F0B;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 100vh;
+    width: 100%;
+    background-color: #182237;
+}
+.card-sort{
+    background-color: #263149;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 25rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #475a81;
+}
+
+#sorteio{ 
+    margin: 0% auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#sorteio .card-input{ 
+    display: flex;
+    height: 2rem;
+    align-items: center;  
+}
+#sorteio .card-input h1{ 
+    color: #ddd;
+}
+#sorteio .card-input input{
+    padding: 1rem 0;
+    border: none;
+    width: 30%;
+    margin: 0 1rem;
+    width: 5rem;
+    padding-inline-start: 1.6rem;
+    border-radius: 1.5rem;
+    background-color: #2a3849;
+    color: #60a5fa;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.botao button{
+    padding: 0.8rem 3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.botao button:hover{
+    cursor: pointer;
+    color: #2a3849;
+    box-shadow: 2px 2px 3px #5f77a8;
+}
+
